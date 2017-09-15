@@ -1,7 +1,7 @@
 # ledskull
 First try to create lighting IoT device based on ESP8266 (Arduino).
 
-Sketch support Glow and Rainbow effects for WS2812b RGB led strips and web-UI to control it from any device with web browser.
+Sketch support Glow, Fade and Rainbow effects for WS2812b RGB led strips and web-UI to control it from any device with web browser.
 
 Project uses [WebSockets server](https://github.com/Links2004/arduinoWebSockets) and [SPI Flash filesystem](https://github.com/pellepl/spiffs) libraries.
 
@@ -29,8 +29,9 @@ UI Screenshot
 TODO
 ----
 * Add photo of skull
-* Resolve some bugs in UI
+* ~~Resolve some bugs in UI~~
 * OTA updates
-* Fade effect
+* ~~Fade effect~~
 * Multicolor fade effect
 * MQTT support?
+* Update screenshots of UI
